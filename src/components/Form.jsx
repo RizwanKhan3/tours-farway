@@ -33,7 +33,7 @@ export const Form = ({ handleClick }) => {
                         value={form.description}
                         onChange={handleChange}
                   />
-                  <button className='btn btn-navy' onClick={() => handleClick(form)}>
+                  <button className='btn btn-navy' onClick={() => handleClick(form, setForm)}>
                         Add
                   </button>
             </div>

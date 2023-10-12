@@ -24,7 +24,7 @@ export const items = [
         id: 4,
         description: 'Charger',
         quantity: 1,
-        packed: true
+        packed: false
     }
 
 ]
